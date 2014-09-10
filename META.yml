@@ -1,37 +1,40 @@
 ---
 abstract: 'delay string interpolation until you really want it'
 author:
-  - 'Toby Inkster <tobyink@cpan.org>'
+  - 'Toby Inkster (TOBYINK) <tobyink@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 6.59
-  Test::Fatal: 0.007
+  Test::Fatal: '0.007'
 configure_requires:
-  ExtUtils::MakeMaker: 6.59
-distribution_type: module
+  ExtUtils::MakeMaker: '6.17'
 dynamic_config: 0
-generated_by: 'Module::Install version 1.06'
+generated_by: 'Moose::Meta::Class::__ANON__::SERIAL::6 version , CPAN::Meta::Converter version 2.140640'
 keywords: []
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
-module_name: String::Interpolate::Delayed
+  version: '1.4'
 name: String-Interpolate-Delayed
 no_index:
   directory:
+    - eg
     - examples
     - inc
     - t
     - xt
+optional_features: {}
+provides:
+  String::Interpolate::Delayed:
+    file: lib/String/Interpolate/Delayed.pm
+    version: '0.002'
 requires:
-  PadWalker: 1.0
-  PerlX::QuoteOperator: 0.04
-  String::Interpolate: 0.3
-  UNIVERSAL::ref: 0.09
-  perl: 5.8.0
+  PadWalker: '1.0'
+  PerlX::QuoteOperator: '0.04'
+  String::Interpolate: '0.3'
+  UNIVERSAL::ref: '0.09'
 resources:
+  X_identifier: http://purl.org/NET/cpan-uri/dist/String-Interpolate-Delayed/project
   bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=String-Interpolate-Delayed
   homepage: https://metacpan.org/release/String-Interpolate-Delayed
   license: http://dev.perl.org/licenses/
-  repository: https://bitbucket.org/tobyink/p5-string-interpolate-delayed
-version: 0.001
+  repository: git://github.com/tobyink/p5-string-interpolate-delayed.git
+version: '0.002'
